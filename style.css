@@ -155,3 +155,267 @@ main {
 	padding: 0;
 	width:100%;	
 }
+
+
+
+
+
+
+
+
+.sobre-nos1, .sobre-nos2 {
+max-width: 1000px;
+margin: 0 auto 10px auto;
+padding: 0px;
+line-height: 1.8;
+font-size: 18px;
+display: flex;
+gap: 50px;
+}
+
+.sobre-nos1 img .sobre-nos2 img {
+display: block;
+margin: 10px auto;
+border-radius: 12px;
+box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+.img-frente-loja {
+max-width: 350px;
+width: 100%;
+height: auto;
+border-radius: 15px;
+}
+
+.timeline {
+border-left: 4px solid #b22222;
+margin: 50px auto;
+padding-left: 30px;
+max-width: 1000px;
+position: relative;
+}
+
+.titulo-evento {
+margin-bottom: 30px;
+}
+
+.titulo-evento h3 {
+font-size: 22px;
+font-weight: bold;
+color: #ffcc00;
+margin-bottom: 10px;
+}
+
+.titulo-evento span {
+display: block;
+font-size: 14px;
+color: #666;
+margin-top: 5px;
+}
+
+.evento {
+display: flex;
+align-items: flex-start;
+margin: 40px 0 60px 0;
+gap: 20px;
+}
+
+.timeline h4 {
+font-weight: 1;
+flex: 1;
+font-size: 17px;
+letter-spacing: 1.2px;
+display: block;
+line-height: 1.5;
+text-align: justify-content;
+}
+
+.timeline img {
+flex: 1;
+max-width: 400px;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+object-fit: cover;
+}
+
+.img-faixada21, .img-faixada25 {
+max-height: 400px;
+}
+
+section {
+  position: relative;
+}
+
+section:after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  margin: 50px auto;
+  background: linear-gradient(to right, transparent, #ffcc00, transparent);
+  border-radius: 2px;
+}
+
+footer {
+  text-align: center;     
+  padding: 20px;           
+  background-color: rgba(26, 26, 26, 0.6); 
+  font-size: 14px;        
+  margin-top: 100px;       
+  border-top: 1px solid #444; 
+  position: relative;      
+  z-index: 2;              
+  color: #fff;
+  box-shadow: 0 0 10px #ffcc00;
+}
+
+footer p {
+margin: 0;
+color: #ccc;
+}
+
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  gap: 40px;
+  align-items: center;
+}
+
+.infos .loja {
+  flex: 1 1 45%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.localizacao-horario {
+  flex: 1 1 45%;
+  font-size: 18px;
+  color: #fff;
+}
+
+.localizacao-horario p {
+  margin-bottom: 10px;
+}
+
+.localizacao-horario h2, h3 {
+  text-align: left;
+}
+
+/* ====== SEÇÃO PLATAFORMAS ====== */
+.plataformas {
+  padding: 40px 20px;
+  text-align: center;
+  
+}
+
+.plataformas h2 {
+  margin-bottom: 30px;
+}
+
+.plataformas .logos img {
+  max-width: 200px;
+  height: auto;
+  margin: 20px;
+  transition: transform 0.3s;
+}
+
+.plataformas img:hover {
+  transform: scale(1.1);
+}
+
+/* ====== SEÇÃO AVALIAÇÕES ====== */
+.avaliacoes {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.avaliacoes h2 {
+  margin-bottom: 30px;
+}
+
+.avaliacoes div {
+  background: #fff8f0;
+  border-left: 5px solid #ffcc00;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-style: italic;
+}
+
+/* ====== FORMULÁRIO ====== */
+.formulario {
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.formulario h2 {
+  margin-bottom: 15px;
+}
+
+.formulario p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.formulario form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input {
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.formulario input:focus {
+  box-shadow: 0 0 8px rgba(255,255,255,0.8);
+}
+
+/* Botão estilizado */
+.formulario button {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ffcc00;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.formulario button:hover {
+  background: #ffaa00;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255,204,0,0.7);
+}
+
+/* ====== SEPARADORES ENTRE SEÇÕES ====== */
+section {
+  position: relative;
+}
+
+section::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 2px;
+  margin: 50px auto;
+  background: linear-gradient(to right, transparent, #ffcc00, transparent);
+  border-radius: 2px;
+}
