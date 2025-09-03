@@ -130,7 +130,8 @@ main {
 
   .course-image {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
+    padding: 1px;
   }
 
   .course h2 {
@@ -143,6 +144,7 @@ main {
 .courses {
   padding: 20px;
 }
+
 
 
 
