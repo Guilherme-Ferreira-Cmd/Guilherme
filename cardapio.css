@@ -96,6 +96,7 @@ main {
 
   .course-texto {
     padding: 10px;
+    color: black;
   }
 }
 
@@ -115,6 +116,7 @@ main {
 
   .course-texto p {
     font-size: 0.9rem;
+    color: black;
   }
 }
 
@@ -146,6 +148,7 @@ main {
 .courses {
   padding: 20px;
 }
+
 
 
 
