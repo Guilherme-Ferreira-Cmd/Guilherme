@@ -119,7 +119,7 @@ main {
 
 @media (max-width: 480px) {
   main {
-    width: 87%;
+    width: 95%;
     padding: 10px;
   }
 
@@ -129,7 +129,7 @@ main {
   }
 
   .course-image {
-    width: 47%;
+    width: 100%;
     max-width: 300px;
   }
 
@@ -140,7 +140,10 @@ main {
   .course-texto p {
     font-size: 0.85rem;
   }
+.courses {
+  padding: 20px;
 }
+
 
 
 
