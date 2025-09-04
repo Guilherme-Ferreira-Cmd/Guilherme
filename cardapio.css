@@ -20,6 +20,7 @@
   align-items: flex-start;
   box-shadow: 0 0 10px #ffcc00;
   transition: transform 0.5s ease;
+  gap: 10px;
 }
 
 .course:last-child {
@@ -148,6 +149,7 @@ main {
 .courses {
   padding: 20px;
 }
+
 
 
 
