@@ -1,4 +1,4 @@
-/* Layout da grade */
+
 .courses {
   display: flex;
   gap: 40px;
@@ -7,12 +7,11 @@
   width: 100%;
 }
 
-/* Estilo dos cards */
 .course {
   border: 3px solid #ffcc00;
   border-radius: 20px;
   padding: 20px;
-  background: #fff;
+  background: #black;
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 45%;
@@ -20,6 +19,7 @@
   align-items: flex-start;
   box-shadow: 0 0 10px #ffcc00;
   transition: transform 0.5s ease;
+  background: black;
   gap: 10px;
 }
 
@@ -32,7 +32,6 @@
   max-width: 850px;
 }
 
-/* Imagens */
 .course-image {
   display: flex;
   width: 200px;
@@ -43,28 +42,29 @@
   box-shadow: 0 0 10px #ffcc00;
 }
 
-/* Texto do card */
 .course-texto {
   display: block;
   width: 100%;
-  padding: .5em;
+  padding: 10px;
   margin: 0 auto;
   line-height: 1.3;
   font-family: Arial, sans-serif;
-  color: black;
+  color: #fff;
+  
 }
 
 .course h2 {
   margin-bottom: 10px;
   font-size: 1.3rem;
+  color: #ffcc00;
 }
 
-/* Hover */
+
 .course:hover {
   transform: scale(1.05);
 }
 
-/* Container principal */
+
 main {
   padding: 15px 40px;
   display: flex;
@@ -72,7 +72,7 @@ main {
   margin: 0 auto 200px auto;
 }
 
-/* Letreiro */
+
 .letreiro-image {
   margin: 0;
   padding: 0;
@@ -80,7 +80,7 @@ main {
   border-radius: 10px;
 }
 
-/* 🔹 Responsividade */
+
 @media (max-width: 1024px) {
   .course {
     flex-basis: 100%;
@@ -97,8 +97,10 @@ main {
 
   .course-texto {
     padding: 10px;
-    color: black;
   }
+  
+  p {
+	color: black;
 }
 
 @media (max-width: 768px) {
@@ -113,11 +115,12 @@ main {
 
   .course h2 {
     font-size: 1.1rem;
+	  color: #ffcc00;
   }
 
   .course-texto p {
     font-size: 0.9rem;
-    color: black;
+	  color: #fff;
   }
 }
 
@@ -135,28 +138,15 @@ main {
   .course-image {
     width: 100%;
     max-width: 200px;
-    padding: 1px;
   }
 
   .course h2 {
     font-size: 1rem;
+	  color: #ffcc00;
   }
 
   .course-texto p {
     font-size: 0.85rem;
-    color: #000;
+	  color: #fff;
   }
-.courses {
-  padding: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
